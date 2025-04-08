@@ -56,7 +56,7 @@ public class AboutPerson extends AppCompatActivity {
         ArrayList<TrendsDomain> list = new ArrayList<>();
         list.add(new TrendsDomain("Future in AI, what will tomorrow be like?","the national","trends"));
         list.add(new TrendsDomain("Important point in concluding a work contract","reuters","trends2"));
-        list.add(new TrendsDomain("Future in AI, what will tomorrow be like?","the national",""));
+        list.add(new TrendsDomain("Future in AI, what will tomorrow be like?","the national","trends"));
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false));
         recyclerView.setAdapter(new TrendsAdapter(list));
     }

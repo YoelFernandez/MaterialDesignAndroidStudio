@@ -27,7 +27,7 @@ public class ActivityProfile extends AppCompatActivity {
         });
         textView4 = findViewById(R.id.textView4);
         textView4.setOnClickListener(v->{
-            Intent intent = new Intent(this, Home.class);
+            Intent intent = new Intent(this, Navegacion.class);
             startActivity(intent);
         });
     }

@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         });
         btn_get_started = findViewById(R.id.btn_get_started);
         btn_get_started.setOnClickListener(v->{
-            Intent intent = new Intent(this, AboutPerson.class);
+            Intent intent = new Intent(this, ActivityProfile.class);
             startActivity(intent);
         });
     }

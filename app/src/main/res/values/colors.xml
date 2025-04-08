@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dark_blue">#32357a</color>
     <color name="light_blue">#f2f1f6</color>
+    <color name="colorPrimary">#238686</color>
+    <color name="colorSecondaryText">#838383</color>
+
+    <color name="bottomNavItemBackgroundColorSelected">#96EFAF</color>
 </resources>
